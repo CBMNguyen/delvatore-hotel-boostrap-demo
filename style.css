@@ -330,7 +330,206 @@ body{
     font-size: 80%;
     color: #f6ae00;
 }
+/* -------------------------------our-room-Section---------------------------------- */
 
+.our-rooms{
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.our-rooms .title{
+    margin-bottom: 20px;
+}
+
+.our-rooms .title h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.our-rooms .title p{
+    text-align: center;
+}
+
+.our-rooms .title .sign{
+    text-align: center;
+    color: #f6ae00;
+    font-size: 2rem;
+}
+
+.room{
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.room img{
+    vertical-align: middle;
+}
+
+.room figure{
+    position: relative;
+}
+
+.room figure figcaption .text1{
+    padding: 0;
+    font-size: 18px;
+}
+
+figure figcaption .text2{
+    padding: 0;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.room figure figcaption{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 10%;
+    padding: 0 50px 0 50px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.room .caption{
+    padding-left: 40px;
+}
+
+.room .caption .text1{
+    font-size: 19px;
+    padding: 5px 0px;
+}
+
+.room .caption .text2{
+    font-size: 9px;
+    color: #999;
+    padding-bottom: 8px;
+}
+
+.room .caption .text2 i{
+    color: #feb200;
+    padding-left: 2px;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.room .caption .text3{
+    font-size: 12px;
+    color: #7e7e7e;
+    padding: 5px 0px 15px 0px;
+}
+
+.room .caption .text4{
+    text-decoration: underline;
+    display: inline-block;
+    position: relative;
+    font-size: 13px;
+    color: #f8af00;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.room .caption .text4 a{
+    color: #f6ae00;
+    font-weight: 700;
+    transition: all .5s;
+}
+
+.room .caption .text4 a:hover{
+    color: #0073b7;
+}
+
+
+.room .caption .text4 a i {
+    font-size: 25px;
+    padding-left: 18px;
+    vertical-align: middle;
+}
+
+.room .select-txt{
+    position: relative;
+}
+
+
+.room .select-txt a{
+    display: block;
+    text-decoration: underline;
+    padding: 20px 60px 20px 50px;
+    background-color: #f8af00;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: all .5s;
+}
+
+.room .select-txt a:hover{
+    background-color: #0073b7;
+}
+
+.room .select-txt a span span i{
+    top: 12%;
+    transition: all .2s;
+    font-size: 110%;
+}
+
+.room .select-txt a:hover span span i{
+    transform: translate(50%, 0%);
+}
+
+.room .room-icons{
+    width: 70px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -38px;
+    text-align: center;
+    bottom: 0;
+}
+
+.room .room-icons i{
+    font-size: 160%;
+}
+
+
+.room .room-icons .room-ic{
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd7d7;
+}
+
+.small-text{
+    padding: 0px;
+    font-size: 65%;
+}
+
+.room .room-ic-left .text1{
+    padding: 0px;
+    font-size: 180%;
+    font-weight: 700;
+}
+
+.room .room-rice{
+    background-color: #0073b7;
+    color: white;
+}
+
+.room .room-rice .text1{
+    font-size: 120%;
+    padding: 0px;
+}
+
+.room .room-rice span{
+    font-weight: 700;
+}
 
 
 
