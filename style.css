@@ -748,6 +748,165 @@ figure figcaption .text2{
     color: #333333;
     margin: 0px;
 }
+/* -------------------------------Footer---------------------------------- */
+footer{
+    background-color: #333;
+}
+.box1{
+    padding: 80px 0px 35px;
+    text-align: center;
+    color: #647072;
+}
+
+.social-box ul{
+    margin: 30px 0px 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.social-box ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #a4aeb0;
+    line-height: 28px;
+    border: 1px solid #a4aeb0;
+    border-radius: 50%;
+    margin: 5px 10px;
+    position: relative;
+    z-index: 0;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    transition: .2s;
+}
+
+.social-box ul li i{
+    padding: 5px;
+}
+
+.social-box ul li a:hover{
+    color: #f8af00;
+    border-color: #f8af00;
+}
+
+.ctn2 .box2{
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #484848;
+    padding: 20px 0px 20px;
+}
+
+.ctn2 .box2 .title{
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 30px 0px 20px;
+    color: #f8af00;
+}
+
+.ctn2 .box2 .contact{
+    padding-bottom: 25px;
+    color: #a4aeb0;
+}
+
+.ctn2 .box2 .contact b{
+    color: #f8af00;
+}
+
+.ctn2 .box2 .email a{
+    color: #a4aeb0;
+}
+
+.ctn2 .box2 .email a:hover{
+    text-decoration: none;
+}
+
+.ctn2 .box2 .recent-post{
+    padding-bottom: 5px;
+}
+
+.ctn2 .box2 .recent-post a{
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.ctn2 .box2 .recent-post img{
+    vertical-align: middle;
+}
+
+.ctn2 .box2 .recent-post .caption .text1{
+    padding: 0px;
+    color: white;
+    transition: all .3s;
+}
+
+.ctn2 .box2 .recent-post:hover .caption .text1{
+    color: #a4aeb0;
+}
+
+.ctn2 .box2 .recent-post .caption{
+    margin-top: -20px;
+    padding-left: 15px;
+}
+
+.ctn2 .box2 .recent-post .caption .text2{
+    padding: 0px;
+    font-size: 14px;
+    color: #a4aeb0;
+    transition: all .3s;
+}
+
+.ctn2 .box2 .recent-post:hover .caption .text2{
+    color: #f8af00;
+}
+
+.ctn2 .box2 .best-picture{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ctn2 .box2 .best-picture li{
+    padding: 0px 8px 22px;
+    float: left;
+    position: relative;
+}
+
+.menu-bottom{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu-bottom ul{
+    list-style-type: none;
+}
+
+.menu-bottom ul li{
+    padding: 5px 0px;
+}
+
+.menu-bottom ul li a{
+    text-decoration: none;
+    color: #a4aeb0;
+    font-size: 102%;
+}
+
+.menu-bottom .copy-right{
+    color: #647072;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu-bottom .copy-right i{
+    color: #f8af00;
+}
+
+.menu-bottom .copy-right a{
+    color: #f8af00;
+    text-decoration: none;
+}
 
 
 
