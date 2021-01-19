@@ -266,6 +266,9 @@ body{
 .btn-group ul li:hover{
     background-color: #f6ae00;
 }
+::selection{
+    background-color: #feb200;
+}
 /* -------------------------------About-Section---------------------------------- */
 
 .about-us{
@@ -529,6 +532,109 @@ figure figcaption .text2{
 
 .room .room-rice span{
     font-weight: 700;
+}
+/* -------------------------------Best-Place-Section---------------------------------- */
+
+.best-place{
+    padding: 50px;
+    color: #f8f8f8;
+}
+
+.best-place .title{
+    margin-bottom: 20px;
+}
+
+.best-place .title h2{
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.best-place .title p{
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+}
+
+.place .caption .text1{
+    font-size: 14px;
+    color: #d4c9c9;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.place .caption .text-block{
+    line-height: 1.2;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.place .caption .text-block .text-block-inner{
+    border-right: 2px solid #f8af00;
+    padding-right: 20px;
+    width: 60%;
+}
+
+.place .caption .text-block .text-block-inner .text2{
+    font-size: 33px;
+    color: #333333;
+}
+
+.place .caption .text-block .text-block-inner .text3{
+    font-size: 12px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+.place .caption .text-block .text-block-inner .text3 i{
+    color: #f8af00;
+    padding-right: 10px;
+}
+
+.place .caption .text4{
+    border-top: 1px solid #eeeeee;
+    padding-top: 50px;
+    font-size: 15px;
+    padding-bottom: 50px;
+    color: #333333;
+}
+
+.place .caption .text-block::after{
+    content: ' ';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #f8af00;
+    position: absolute;
+    bottom: 0;
+}
+
+.place .caption .text5 figure img{
+    vertical-align: middle;
+}
+
+.place .caption .text5 .rest1-caption .rest1-text1{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 800;
+}
+
+.place .caption .text5 .rest1-caption .rest1-text2{
+    font-size: 13px;
+    color: #cccccc;
+    text-transform: uppercase;
+}
+
+.place figure{
+    right: 3.5%;
+    top: 10%;
+}
+
+.col-7 .caption{
+    width: 90%;
 }
 
 
