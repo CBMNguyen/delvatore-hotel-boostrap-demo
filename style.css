@@ -906,6 +906,15 @@ footer{
 .menu-bottom .copy-right a{
     color: #f8af00;
     text-decoration: none;
+    transition: all .3s;
+}
+
+.menu-bottom li a:hover{
+    color: #f8af00;
+}
+
+.menu-bottom li a:hover span{
+    color: #a4aeb0;
 }
 
 
