@@ -266,7 +266,70 @@ body{
 .btn-group ul li:hover{
     background-color: #f6ae00;
 }
+/* -------------------------------About-Section---------------------------------- */
 
+.about-us{
+    padding: 50px;
+}
+
+.about-us .title{
+    margin-bottom: 20px;
+}
+
+.about-us .title h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.about-us .title p{
+    text-align: center;
+}
+
+.about-us .title .sign{
+    text-align: center;
+    color: #f6ae00;
+    font-size: 2rem;
+}
+
+.mid-img {
+    left: -16%;
+    top: 10%;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    z-index: -1;
+}
+
+.slider{
+    width: 85%;
+}
+
+.text1{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.text2 p{
+    color: #978989;
+    padding-bottom: 5px;
+}
+
+.text3{
+    padding-top:30px;
+}
+
+.text4{
+    font-size: 80%;
+    padding: 5px 0px;
+}
+
+.text5{
+    font-size: 80%;
+    color: #f6ae00;
+}
 
 
 
