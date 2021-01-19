@@ -636,6 +636,67 @@ figure figcaption .text2{
 .col-7 .caption{
     width: 90%;
 }
+/* -------------------------------Client-Say-Section---------------------------------- */
+.client-say{
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.client-say .title{
+    margin-bottom: 20px;
+}
+
+.client-say .title h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.client-say .title p{
+    text-align: center;
+}
+
+.client-say .title .sign{
+    text-align: center;
+    color: #f6ae00;
+    font-size: 2rem;
+}
+
+/* -------------------------------Testimonial-Section---------------------------------- */
+.testimonial-caption{
+    padding: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 30px;
+    background-color: #fff;
+    line-height: 1.4;
+}
+
+.author figure img{
+    width: 75px;
+    height: 75px;
+    border: 2px solid #ddd7d7;
+}
+
+.author figure{
+    padding-left: 30px;
+}
+
+.author .caption .text1{
+    color: black;
+    padding: 0px 20px;
+    font-weight: bolder;
+    margin-top: -35px;
+}
+
+.author .caption .text2{
+    padding: 0px 20px;
+    font-size: 12px;
+    color: #999;
+}
 
 
 
