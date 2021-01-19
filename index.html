@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <!-----------------------------------------------------Header-------------------------------------------- -->
+
     <div class="top-wrapper">
         <div class="container-fluid p-0 position-relative">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -46,11 +48,11 @@
                                 id="dropdownCurrency2" data-bs-toggle="dropdown" aria-expanded="false">
                                 US Dollar
                             </a>
-                            <ul class="dropdown-menu mt-2" aria-labelledby="dropdownCurrency2">
-                                <li><a class="dropdown-item" href="#">EURO</a></li>
-                                <li><a class="dropdown-item" href="#">US DOLLAR</a></li>
-                                <li><a class="dropdown-item" href="#">POUND STERLING</a></li>
-                                <li><a class="dropdown-item" href="#">GEORGIAN LARI</a></li>
+                            <ul class="dropdown-menu mt-2 p-0" aria-labelledby="dropdownCurrency2">
+                                <li><a class="dropdown-item p-2" href="#">EURO</a></li>
+                                <li><a class="dropdown-item p-2" href="#">US DOLLAR</a></li>
+                                <li><a class="dropdown-item p-2" href="#">POUND STERLING</a></li>
+                                <li><a class="dropdown-item p-2" href="#">GEORGIAN LARI</a></li>
                             </ul>
                         </div>
                     </div>
@@ -61,20 +63,20 @@
                                 <img src="./img/flag1.jpg" class="img-fluid me-4" alt>
                                 English (UK)
                             </a>
-                            <ul class="dropdown-menu mt-2" aria-labelledby="dropdownLanguage2">
-                                <li class="pe-5 ps-4 d-flex align-items-center">
+                            <ul class="dropdown-menu mt-2 p-0" aria-labelledby="dropdownLanguage2">
+                                <li class="pe-5 ps-4 pt-2 pb-2 d-flex align-items-center">
                                     <img src="./img/flag1.jpg" class="img-fluid pe-2" alt>
                                     <a class="dropdown-item" href="#">English (UK)</a>
                                 </li>
-                                <li class="pe-5 ps-4 d-flex align-items-center">
+                                <li class="pe-5 ps-4 d-flex align-items-center pt-2 pb-2">
                                     <img src="./img/flag3.jpg" class="img-fluid pe-2" alt>
                                     <a class="dropdown-item" href="#">German</a>
                                 </li>
-                                <li class="pe-5 ps-4 d-flex align-items-center">
+                                <li class="pe-5 ps-4 d-flex align-items-center pt-2 pb-2">
                                     <img src="./img/flag5.jpg" class="img-fluid pe-2" alt>
                                     <a class="dropdown-item" href="#">Georgian</a>
                                 </li>
-                                <li class="pe-5 ps-4 d-flex align-items-center">
+                                <li class="pe-5 ps-4 d-flex align-items-center pt-2 pb-2">
                                     <img src="./img/flag4.jpg" class="img-fluid pe-2" alt>
                                     <a class="dropdown-item" href="#">Russian</a>
                                 </li>
@@ -84,7 +86,7 @@
                                     id="dropdownAccount2" data-bs-toggle="dropdown" aria-expanded="false">
                                     Sign in
                                 </a>
-                                <ul class="dropdown-menu mt-2" aria-labelledby="dropdownAccount2">
+                                <ul class="dropdown-menu mt-2 p-0" aria-labelledby="dropdownAccount2">
                                     <li><a class="dropdown-item" href="#">EDIT PROFILE</a></li>
                                     <li><a class="dropdown-item" href="#">SIGN OUT</a></li>
                                 </ul>
@@ -114,7 +116,7 @@
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Home
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownCurrency2">
+                    <ul class="dropdown-menu p-0" aria-labelledby="dropdownCurrency2">
                         <li><a class="dropdown-item" href="#">Winter Hotel</a></li>
                         <li><a class="dropdown-item" href="#">Summer Hotel</a></li>
                         <li><a class="dropdown-item" href="#">Fixed Menu Style</a></li>
@@ -132,7 +134,7 @@
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Pages
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownCurrency2">
+                    <ul class="dropdown-menu p-0" aria-labelledby="dropdownCurrency2">
                         <li><a class="dropdown-item" href="#">About us</a></li>
                         <li><a class="dropdown-item" href="#">Rooms</a></li>
                         <li><a class="dropdown-item" href="#">Reservation</a></li>
@@ -144,7 +146,7 @@
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Blogs
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownCurrency2">
+                    <ul class="dropdown-menu p-0" aria-labelledby="dropdownCurrency2">
                         <li><a class="dropdown-item" href="#">Blog</a></li>
                         <li><a class="dropdown-item" href="#">Blog Post</a></li>
                     </ul>
@@ -216,11 +218,10 @@
             <div class="container position-absolute main-nav-6">
                 <form action="/" class="form-nav">
                     <div class="row">
-
                         <div class="col-3 p-2">
                             <div class="input1">
                                 <div class="btn-group dropup d-flex align-items-center">
-                                    <input type="text" class="input datepicker hasDatepicker border-0"
+                                    <input type="text" class="input datepicker hasDatepicker border-0" autofocus
                                         data-bs-toggle="dropdown" aria-expanded="false" placeholder="Check in">
                                     <i class="zmdi zmdi-calendar-alt"></i>
                                     <div class="container dropdown-menu">
@@ -308,7 +309,7 @@
                                 <div class="btn-group dropup d-flex align-items-center">
                                     <input type="text" class="input datepicker hasDatepicker border-0"
                                         data-bs-toggle="dropdown" aria-expanded="false" placeholder="Check in">
-                                        <i class="zmdi zmdi-calendar-alt"></i>
+                                    <i class="zmdi zmdi-calendar-alt"></i>
                                     <div class="container dropdown-menu">
                                         <div class="row">
                                             <div class="span12">
@@ -391,43 +392,46 @@
                         </div>
                         <div class="col-1 p-2 option1">
                             <div class="btn-group">
-                                <a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                  1 Adult
+                                <a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    1 Adult
                                 </a>
-                                <ul class="dropdown-menu mb-2">
-                                  <li><a href="#">1 &nbsp; Adults</a></li>
-                                  <li><a href="#">2 &nbsp; Adults</a></li>
-                                  <li><a href="#">3 &nbsp; Adults</a></li>
-                                  <li><a href="#">4 &nbsp; Adults</a></li>
+                                <ul class="dropdown-menu mb-2 mt-2 option-list p-0">
+                                    <li><a href="#">1 &nbsp; Adults</a></li>
+                                    <li><a href="#">2 &nbsp; Adults</a></li>
+                                    <li><a href="#">3 &nbsp; Adults</a></li>
+                                    <li><a href="#">4 &nbsp; Adults</a></li>
                                 </ul>
-                              </div>
+                            </div>
                         </div>
                         <div class="col-1 p-2 option1">
                             <div class="btn-group">
-                                <a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Children
+                                <a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Children
                                 </a>
-                                <ul class="dropdown-menu mb-2">
-                                  <li><a href="#">  &nbsp; Children</a></li>
-                                  <li><a href="#">1 &nbsp; Children</a></li>
-                                  <li><a href="#">2 &nbsp; Children</a></li>
-                                  <li><a href="#">3 &nbsp; Children</a></li>
-                                  <li><a href="#">4 &nbsp; Children</a></li>
+                                <ul class="dropdown-menu mb-2 mt-2 option-list p-0">
+                                    <li><a href="#"> &nbsp; Children</a></li>
+                                    <li><a href="#">1 &nbsp; Children</a></li>
+                                    <li><a href="#">2 &nbsp; Children</a></li>
+                                    <li><a href="#">3 &nbsp; Children</a></li>
+                                    <li><a href="#">4 &nbsp; Children</a></li>
                                 </ul>
-                              </div>
+                            </div>
                         </div>
                         <div class="col-1 p-2 option1">
                             <div class="btn-group">
-                                <a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                  1 &nbsp; Room
+                                <a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    1 &nbsp; Room
                                 </a>
-                                <ul class="dropdown-menu mb-2">
-                                  <li><a href="#">1 &nbsp; Room</a></li>
-                                  <li><a href="#">2 &nbsp;Rooms</a></li>
-                                  <li><a href="#">3 &nbsp;Rooms</a></li>
-                                  <li><a href="#">4 &nbsp;Rooms</a></li>
+                                <ul class="dropdown-menu mb-2 mt-2 option-list p-0">
+                                    <li><a href="#">1 &nbsp; Room</a></li>
+                                    <li><a href="#">2 &nbsp;Rooms</a></li>
+                                    <li><a href="#">3 &nbsp;Rooms</a></li>
+                                    <li><a href="#">4 &nbsp;Rooms</a></li>
                                 </ul>
-                              </div>
+                            </div>
                         </div>
                         <div class="col-3 available">
                             <div class="avl">

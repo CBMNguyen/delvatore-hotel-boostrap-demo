@@ -1,9 +1,10 @@
+/* ---------------------------------------Style-CSS-------------------------------------------- */
 
 body{
     overflow-x: hidden;
-    color: #fff;
+    color: #4c4c4c;
 }
-
+/* ------------------------------------------Header-------------------------------------------- */
 .main-nav{
     top: 0;
 }
@@ -84,15 +85,15 @@ body{
 }
 
 .border-bottom {
-    border-bottom: 1px solid rgba(246, 174, 0, 0.3)!important;
+    border-bottom: 1px solid rgba(246, 174, 0, 0.2)!important;
 }
 
 .border-end{
-    border-right: 1px solid rgba(246, 174, 0, 0.3)!important;
+    border-right: 1px solid rgba(246, 174, 0, 0.2)!important;
 }
 
 .border-start{
-    border-left: 1px solid rgba(246, 174, 0, 0.3)!important;
+    border-left: 1px solid rgba(246, 174, 0, 0.2)!important;
 }
 
 .main-nav .dropdown-menu li{
@@ -137,7 +138,6 @@ body{
  }
 
  .nav-item ul li{
-     
      border-bottom: 1px solid #ddd7d7;
  }
 
@@ -221,6 +221,14 @@ body{
 .option1 a{
     font-size: 85%;
     padding-top: 10px;
+}
+
+.option1 .option-list li:first-child{
+    background-color: #f6ae00;
+}
+
+.option1 .option-list li:first-child a{
+    color: white;
 }
 
 .avl{
