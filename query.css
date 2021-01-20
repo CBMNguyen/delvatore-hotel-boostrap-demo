@@ -1,17 +1,246 @@
-@media only screen and (max-width: 500px){
+@media only screen and (min-width: 1024px){
+    .main-nav{
+        width: 90%;
+    }
+    .search-btn i{font-size:180%;padding-top:20%;transition:.4}
+    .top-wrapper .container{
+        margin-left: 12%;
+    }
+
+    .main-nav-2{
+        width: 90%;
+    }
+
+    .main-nav-5{
+        width: 60%;
+        left: 0%;
+    }
+
+    .main-nav-6{
+        width: 80%;
+        left: 1.5%;
+    }
+
+    .place figure{
+        right: 3.5%;
+        top: 10%;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    .main-nav-2 .nav-item a{
+        font-size: 100%;
+    }
+
+    .main-nav-4{
+        position: absolute;
+        color: #fff;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 30%);
+    }
+
+    .main-nav-4 span{
+        text-transform: uppercase;
+        font-size: 500%;
+        letter-spacing: 0.2em;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .main-nav-5{
+        left: -15%;
+    }
+
+    .main-nav-6{    
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+        left: 0%;
+        width: 80%;
+        margin: auto;
+        display: block;
+        margin-top: 50px;
+        transform: translate(12% ,-75%);
+    }
+
+    .main-nav-6 .form-nav .a{
+        padding: 0 !important;
+    }
+
+    .option1{
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+    }
+
+    .input1{
+        border-left: 1px solid #ccc;
+    }
+
+    .btn-group{
+        width: 100%;
+    }
+
+
+
+    .btn-group .dropdown-menu{
+        width: 100%;
+    }
+
+    .option1 a{
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .span12 table{
+        width: 100%;
+    }
+    
+    .input1{
+        border-bottom: 1px solid #ccc;
+    }
+
+    .input1 input{
+        width: 100%;
+        font-size: 100%;
+    }
+
+    .input1 i{
+        font-size: 180%;
+        padding-right: 0.9em;
+    }
+
+    .avl{
+        width: 100%;
+        height: 100%;
+        padding: 15px 0px;
+        margin-left: 0;
+    }
+
+    .available{
+        padding: 0;
+    }
+
+    .place figure{
+        top: 5%;
+        left: 52%;
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    nav{
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: transparent;
+    }
+    
+    .nav-box{
+        width: 80%;
+    }
+    
+    nav span{
+        color: white;
+        font-size: 140%;
+        padding-top: 20%;
+    }
+    
+    nav .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    
+    nav .btn{
+        background-color: white;
+    }
+    
+    nav .nav-list{
+        background-color: #fff;
+        margin: auto;
+    }
+    
+    nav .nav-list li{
+        border-bottom: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    nav .nav-list li a{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    nav .nav-list li a:hover{
+        border-bottom: none;
+    }
+    
+    nav .sub-nav{
+        border: none;
+        padding: 0;
+    }
+    
+    nav .sub-nav li{
+        border-bottom: 1px solid #ccc;
+        padding: 0;
+    }
+    
+    nav .sub-nav li a{
+        padding: 15px 20px 15px 20px;
+        color: #333333;
+        font-size: 13px;
+        line-height: 20px;
+        display: block;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    nav li{
+        padding: 10px;
+    }
+    
+    nav .nav-item {
+        margin: 0px;
+    }
+    
+    .nav-list .nav-item:first-child .f-link:first-child{  
+        border-bottom: 2px solid #f8af00;
+    }
+    
+    .nav-list .f-link{
+        padding-bottom: 10px;
+    }
+    
+    .nav-list .f-link:hover{
+        border-bottom: 2px solid #f8af00;
+    }
+    
+    nav .nav-list a{
+        font-size: 16px;
+        color: #333;
+    }
     .main-nav{
         display: none;
     }
     .main-nav-2{
         display: none;
-        font-size: 100%;
-        bottom: 0;
+        font-size: 110%;
         left: 0;
         padding: 0;
     }
 
+    .main-nav-3{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -140%);
+    }
+
+    .nav-item{
+        margin: 0px auto;
+    }
+
     .nav-item a{
-        padding: 0px 5px;
+        padding: 0px 10px;
+        font-size: 90%;
     }
 
     .top-wrapper{
@@ -27,12 +256,66 @@
     }
 
     .main-nav-6{
-        display: none;
+        position: relative;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+        left: 0%;
+        width: 80%;
+        margin: auto;
+        display: block;
+        margin-top: 50px;
+        transform: translate( 0% ,0%);
+    }
+
+    .option1{
+        border-bottom: 1px solid #ccc;
+    }
+
+    .btn-group{
+        width: 100%;
+    }
+
+    .btn-group .dropdown-menu{
+        width: 100%;
+    }
+
+    .option1 a{
+        font-size: 100%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .span12 table{
+        width: 100%;
+    }
+
+    .input1{
+        border-bottom: 1px solid #ccc;
+    }
+
+    .input1 input{
+        width: 100%;
+        font-size: 100%;
+    }
+
+    .input1 i{
+        font-size: 180%;
+        padding-right: 0.9em;
+    }
+
+    .avl{
+        width: 100%;
+        height: 100%;
+        padding: 15px 0px;
+        margin-left: 0;
+    }
+
+    .available{
+        padding: 0;
     }
 
     .place figure{
-        top: 68%;
-        left: 55%;
+        top: 3%;
+        left: 64%;
         width: 35%;
     }
 
@@ -61,10 +344,43 @@
     }
 
     .menu-bottom ul li a{
+        font-size: 90%;
+    }
+
+    .copy-right {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .nav-box {
+        width: 95%;
+    }
+
+    .main-nav-3{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -200%);
+    }
+
+    .menu-bottom ul li a{
         font-size: 70%;
     }
 
     .copy-right {
         font-size: 6px;
     }
+
+    .space{
+        padding-left: 79%;
+    }
+
+    .space1{
+        padding-left: 77.3%;
+    }
+
+    .space2{
+        padding-left: 78.5%;
+    }
+
 }
